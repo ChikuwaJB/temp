@@ -34,9 +34,7 @@ echo "${i}個のパッケージを処理しました。(前回は${n}個)"
 if [ $MODE == "auto" ]; then
 git config user.email "chikuwajb@gmail.com"
 git config user.name "Auto"
-
-git init
-git add .
+git add . -A
 git commit -m "Auto generated Packages.bz2"
-git push "https://${Github_TOKEN}@github.com/ChikuwaJB/temp.git" master:gh-pages
+git push "https://${Github_TOKEN}@github.com/ChikuwaJB/temp.git" master:master
 fi
