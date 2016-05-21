@@ -35,6 +35,7 @@ if [ $MODE == "auto" ]; then
 git config user.email "chikuwajb@gmail.com"
 git config user.name "Auto"
 git add . -A
+git remote -v
 git commit -m "Auto generated Packages.bz2"
-git push "https://${Github_TOKEN}@github.com/ChikuwaJB/temp.git" master:master
+git push "https://${Github_TOKEN}@github.com/ChikuwaJB/temp.git"
 fi
