@@ -38,5 +38,5 @@ git config user.name "Auto"
 git init
 git add .
 git commit -m "Auto generated Packages.bz2"
-git push --quiet "https://${Github_TOKEN}@github.com/ChikuwaJB/temp.git" master:gh-pages
+git push "https://${Github_TOKEN}@github.com/ChikuwaJB/temp.git" master:gh-pages
 fi
